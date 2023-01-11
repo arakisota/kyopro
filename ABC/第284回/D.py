@@ -1,3 +1,11 @@
+"""
+N = p^2q(p, qは素数)のとき、min(p, q) <= n^(1/3)が成り立つ
+→そのため、n^(1/3)の試しわりで全探索しても、TLEせずにACできる
+
+（別解）
+Pollard’s rho algorithmという高速な素因数分解アルゴリズムを用いてもできる
+"""
+
 import math
 from collections import Counter
 
