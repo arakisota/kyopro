@@ -2,7 +2,7 @@
 ### 過去問や実際にやったコンテストを管理する
   
 #### 使用言語
-- Python
+- Python(PyPy3)
 - C++
 
 #### AtCoder Problems
