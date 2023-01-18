@@ -18,8 +18,8 @@ for i in range(M):
     # 無向グラフの場合は次も実施
     # G[B].append(A)
 
-"""BFSをキューを用いて実装する"""
-def BFS(G):
+"""BFSをキューを用いて実装する。startを指定することでそこからの値が求まる"""
+def BFS(G, start):
     # 各頂点が何手目に探索されたか
     # -1 は「まだ探索されていない」ことを表す
     dist = [-1] * N
@@ -27,9 +27,9 @@ def BFS(G):
     # todo リストを表すキュー
     que = Queue()
 
-    # 頂点 0 を始点とする
-    dist[0] = 0
-    que.put(0)
+    # startを始点とする
+    dist[start] = 0
+    que.put(start)
 
     # キューが空になるまで探索する
     while not que.empty():
