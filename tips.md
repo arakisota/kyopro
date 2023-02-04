@@ -61,3 +61,5 @@
     - というより、引っかかるようにテストケースが作られている
 - itertoolsを使えば、順列や組み合わせの問題は大抵解ける
     - https://qiita.com/anmint/items/37ca0ded5e1d360b51f3
+- a~zの文字列を作るにはライブラリを使うと楽
+    - from string import ascii_lowercase
