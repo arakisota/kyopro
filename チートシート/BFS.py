@@ -15,7 +15,7 @@ BFSは「出発地点から近いところから探索していく」
 from queue import Queue
 
 """BFSをキューを用いて実装する。startを指定することでそこからの値が求まる"""
-def BFS(G, start=0):
+def BFS(G, start=1):
     # 各頂点が何手目に探索されたか
     # -1 は「まだ探索されていない」ことを表す
     start -= 1
