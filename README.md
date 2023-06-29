@@ -4,6 +4,7 @@
 #### 使用言語
 - Python(PyPy3)
 - C++
+- Dart (Flutterの練習用)
 
 #### AtCoder Problems
 - 進捗情報など
